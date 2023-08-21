@@ -21,5 +21,10 @@ export default {
                 hotstop: true,
             }
         },
+        {
+            name: 'feedback',
+            title: 'Feedback',
+            type: 'string'
+        }
     ]
 }
