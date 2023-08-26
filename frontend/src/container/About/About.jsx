@@ -1,9 +1,10 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import "./About.scss";
-import { images } from "../../constants";
 import { motion } from "framer-motion";
-import { client, urlFor } from "../../client";
+import {  urlFor, client } from "../../client";
+import { AppWrap } from '../../wrapper';
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -51,4 +52,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, 'about');
