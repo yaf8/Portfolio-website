@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import "./work.scss";
 import { motion } from "framer-motion";
-import { AiFillEye, AiFillGuthub } from "react-icons/ai";
 import { urlFor, client } from "../../client";
 import { AppWrap } from "../../wrapper";
 
