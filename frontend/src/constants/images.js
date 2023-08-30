@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -25,7 +26,7 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -34,6 +35,10 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import java from "../assets/java.png";
+import php from "../assets/php.png";
+import firebase from "../assets/firebase.png";
+import android from "../assets/android.png";
 
 export default {
   email,
@@ -69,4 +74,8 @@ export default {
   nb,
   skype,
   spotify,
+  java,
+  firebase,
+  php,
+  android,
 };

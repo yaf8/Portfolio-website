@@ -1,18 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebook } from 'react-icons/fa';
+import { BsInstagram, BsLinkedin } from 'react-icons/bs';
+import { FaTelegram } from 'react-icons/fa';
 
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <BsTwitter />
+      <a href='https://t.me/Yafetema' target='_blank' rel="noreferrer">
+        <FaTelegram />
+      </a>
     </div>
     <div>
-      <FaFacebook />
+    <a href='https://linkedin.com/in/yaf8' target='_blank' rel="noreferrer">
+        <BsLinkedin />
+      </a>
     </div>
     <div>
-      <BsInstagram />
+    <a href='https://www.instagram.com/yaf8ema/' target='_blank' rel="noreferrer">
+        <BsInstagram />
+      </a>
     </div>
   </div>
 );
