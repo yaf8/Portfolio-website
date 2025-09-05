@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <meta property="og:url" content="https://yafet.netlify.app/" />
         <meta property="og:title" content="Yafet Abebe - Full-stack Web & Mobile App Developer | Freelancer" />
         <meta property="og:description" content="Yafet Abebe is an experienced Full-stack Web and Mobile App Developer offering freelance services. Specializing in React, Flutter, Spring Boot, and creating robust digital solutions for good business. Based in Ethiopia." />
-        <meta property="og:image" content="https://yafet.netlify.app/profile_bg.png" /> {/* Verify this image path */}
+        <meta property="og:image" content="https://yafet.netlify.app/assets/profile-ad4a074e.webp" /> 
         <meta property="og:image:alt" content="Yafet Abebe Portfolio Profile Image" />
 
         {/* Twitter */}
@@ -27,8 +27,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <meta property="twitter:url" content="https://yafet.netlify.app/" />
         <meta property="twitter:title" content="Yafet Abebe - Full-stack Web & Mobile App Developer | Freelancer" />
         <meta property="twitter:description" content="Yafet Abebe is an experienced Full-stack Web & Mobile App Developer offering freelance services. Specializing in React, Flutter, Spring Boot, & robust digital solutions." />
-        <meta property="twitter:image" content="https://yafet.netlify.app/profile_bg.png" /> {/* Verify this image path */}
-        <meta property="twitter:creator" content="@YourTwitterHandle" /> {/* Replace with Yafet's Twitter handle if he has one */}
+        <meta property="twitter:image" content="https://yafet.netlify.app/assets/profile-ad4a074e.webp" /> 
+        <meta property="twitter:creator" content="@yaf8yaf8" /> 
 
         {/* Canonical Tag */}
         <link rel="canonical" href="https://yafet.netlify.app/" />
@@ -56,9 +56,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 "alumniOf": [],
                 "sameAs": [
                   // Add Yafet's actual social media and professional profiles here
-                  // "https://www.linkedin.com/in/yafetabebe",
-                  // "https://github.com/yafetabebe",
-                  // "https://twitter.com/yafetabebe"
+                  // "https://www.linkedin.com/in/yaf8",
+                  // "https://github.com/yaf8",
+                  // "https://twitter.com/yaf8yaf8"
                 ]
               },
               {
